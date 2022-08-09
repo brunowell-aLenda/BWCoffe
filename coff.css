@@ -1,0 +1,36 @@
+*{
+    margin: 0; /*margem*/
+    padding: 0; /*preenchimento*/
+}
+
+body{
+    background-color: #FFEDD5;
+}
+
+ul{
+    list-style: none; /* tirar as marcaçoes da lista*/
+}
+
+header{
+    padding: 32px 0;
+    text-align: center;
+}
+
+section, header{
+    max-width: 300px; /* largura máxima da caixa*/
+    margin: 0 auto; /* margem de cima e baixo vai ser zero mas da esquerda e direita vai ser automatico*/
+    border: 1px solid red;
+}
+
+section h2 {
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px; /* margem abaixo da caixa*/
+    border: 1px solid red;
+}
+
+ul li{
+    margin-bottom: 16px;
+    display: flex; /* alinhar caixa com outras caixas sempre pegar a caixa pai e colocar o display como flex, onde vai colocar os filhos da caixa do pai*/
+}
