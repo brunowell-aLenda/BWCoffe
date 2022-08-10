@@ -78,7 +78,7 @@ li .detalhes{
     line-height: 19px;
 }
 
-.detalhes {
+.detalhes p{
     color: rgba(0, 0, 0, 0.6); /*O a NO RGBA que dizer a transparencia */
     font-size: 14px;
     line-height: 21px; /*altura da linha*/
